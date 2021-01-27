@@ -2,7 +2,7 @@ import React from "react";
 import faker from "faker";
 import Snackbar from "@material-ui/core/Snackbar";
 import Table from "./MUVirtualizedTable/VirtualizedTable";
-import "./app.css";
+
 const generateRandomItem = (idx: number) => ({
   id: idx + "-" + faker.random.word(),
   name: faker.name.findName(),
