@@ -33,47 +33,49 @@ function App() {
   };
   return (
     <div className='App'>
-      <Table
-        rowCount={rows.length}
-        loadMoreRows={loadMoreRows}
-        isRowLoaded={isRowLoaded}
-        rowGetter={({ index }) => rows[index]}
-        onRowClick={(row) => console.log(row)}
-        expansionRowHeight={80}
-        rowHeight={55}
-        enableTableHeader={true}
-        headerHeight={70}
-        transition='all 500ms ease-in-out'
-        lastSelectedIndex={1}
-        columns={[
-          {
-            width: "20%",
-            label: "ID",
-            dataKey: "id",
-            // numeric: true,
-          },
-          {
-            width: "20%",
-            label: "Name",
-            dataKey: "name",
-          },
-          {
-            width: "25%",
-            label: "email",
-            dataKey: "email",
-          },
-          {
-            width: "20%",
-            label: "Company Name",
-            dataKey: "companyName",
-          },
-          {
-            width: "15%",
-            label: "Date",
-            dataKey: "date",
-          },
-        ]}
-      />
+      <div style={{ margin: 20 }}>
+        <Table
+          rowCount={rows.length}
+          loadMoreRows={loadMoreRows}
+          isRowLoaded={isRowLoaded}
+          rowGetter={({ index }) => rows[index]}
+          onRowClick={(row) => console.log(row)}
+          expansionRowHeight={80}
+          rowHeight={55}
+          enableTableHeader={true}
+          headerHeight={70}
+          transition='all 500ms ease-in-out'
+          lastSelectedIndex={1}
+          columns={[
+            {
+              width: "20%",
+              label: "ID",
+              dataKey: "id",
+              // numeric: true,
+            },
+            {
+              width: "20%",
+              label: "Name",
+              dataKey: "name",
+            },
+            {
+              width: "25%",
+              label: "email",
+              dataKey: "email",
+            },
+            {
+              width: "20%",
+              label: "Company Name",
+              dataKey: "companyName",
+            },
+            {
+              width: "15%",
+              label: "Date",
+              dataKey: "date",
+            },
+          ]}
+        />
+      </div>
       <Snackbar
         anchorOrigin={{
           vertical: "bottom",

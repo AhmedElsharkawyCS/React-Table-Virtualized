@@ -2,6 +2,9 @@
   "name": "react-table-virtualized",
   "version": "0.1.0",
   "private": true,
+  "author": "Ahmed Elsharkawy <ahmedelsharkawy.fcih@gmail.com>",
+  "user": "AhmedElsharkawyCS",
+  "homepage": "https://github.com/AhmedElsharkawyCS/React-Table-Virtualized/blob/main/README.md",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.57",
@@ -52,5 +55,22 @@
   "devDependencies": {
     "@types/faker": "^5.1.5",
     "@types/react-virtualized": "^9.21.10"
-  }
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "virtual",
+    "table",
+    "scrolling",
+    "infinite",
+    "virtualized",
+    "table",
+    "fixed",
+    "header",
+    "flex",
+    "flexbox",
+    "grid",
+    "material ui",
+    "typescript"
+  ]
 }
