@@ -12,13 +12,13 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
+    "classnames": "^2.2.6",
+    "clsx": "^1.1.1",
     "faker": "^5.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
-    "react-virtualized-auto-sizer": "^1.0.3",
-    "react-window": "^1.8.6",
-    "react-window-infinite-loader": "^1.0.5",
+    "react-virtualized": "^9.22.3",
     "typescript": "^4.0.3",
     "web-vitals": "^0.2.4"
   },
@@ -48,8 +48,6 @@
   },
   "devDependencies": {
     "@types/faker": "^5.1.5",
-    "@types/react-virtualized-auto-sizer": "^1.0.0",
-    "@types/react-window": "^1.8.2",
-    "@types/react-window-infinite-loader": "^1.0.3"
+    "@types/react-virtualized": "^9.21.10"
   }
 }

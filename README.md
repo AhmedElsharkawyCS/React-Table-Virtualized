@@ -1,10 +1,11 @@
 # React Table virtualized with infinite loader
 
-## infinite loading table scrolling using:-
+## Table has been built with
 
-`react-virtualized-auto-sizer`
-`react-window-infinite-loader`
-`react-window`
+`react.js`
+`react-virtualized`
+`@material-ui, clsx`
+`typescript`
 
 ## Available Scripts
 
